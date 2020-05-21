@@ -12,7 +12,7 @@ const mongoose = require('mongoose')
 const Persona = require('./personas')
 
 const port = process.env.PORT || 8081;
-const db_link = "mongodb://localhost:27017/personasdb";
+const db_link = "mongodb://mongo:27017/personasdb";
 const options = {
     useNewUrlParser: true,
     useUnifiedTopology: true
